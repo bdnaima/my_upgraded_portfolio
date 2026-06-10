@@ -5,9 +5,12 @@ import AboutMe from "./pages/AboutMe";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 
+import Navbar from "./components/Navbar/Navbar";
+
 const App = () => {
   return (
     <BrowserRouter>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutMe />} />
