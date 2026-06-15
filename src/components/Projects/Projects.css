@@ -18,18 +18,10 @@
 
 .project-card {
   background: white;
-
   border-radius: 16px;
-
   overflow: hidden;
-
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
-
-  transition: transform 0.3s ease;
-}
-
-.project-card:hover {
-  transform: translateY(-5px);
+  animation: slideUp 0.8s ease forwards;
 }
 
 .project-card img {
@@ -40,23 +32,27 @@
 
 .project-content {
   padding: 1.5rem;
+  text-align: left;
 }
 
-.tech-stack {
+.project-links {
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-
-  margin: 1rem 0;
+  gap: 1rem;
+  margin-top: 2rem;
 }
 
-.tech-stack span {
-  padding: 0.35rem 0.75rem;
+.project-links a {
+  text-decoration: none;
+}
 
-  border-radius: 999px;
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
 
-  background: #b574b3;
-  color: white;
-
-  font-size: 0.8rem;
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

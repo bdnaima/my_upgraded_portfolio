@@ -14,8 +14,10 @@ const AboutSection = () => {
         </p>
 
         <div className="about-tags">
+          <span>HTML & CSS</span>
           <span>React</span>
           <span>JavaScript</span>
+          <span>Node</span>
           <span>UX/UI</span>
           <span>Figma</span>
         </div>

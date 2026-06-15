@@ -11,15 +11,15 @@ const ProjectCard = ({ project }) => {
 
         <p>{project.description}</p>
 
-        <div className="tech-stack">
+        {/* <div className="tech-stack">
           {project.technologies.map((tech) => (
             <span key={tech}>{tech}</span>
           ))}
-        </div>
+        </div> */}
 
         <div className="project-links">
-          <a href={project.github}>GitHub</a>
-          <a href={project.url}>Live Demo</a>
+          <Link to={project.github}>GitHub</Link>
+          <Link to={project.url}>Live Demo</Link>
         </div>
       </div>
     </article>
