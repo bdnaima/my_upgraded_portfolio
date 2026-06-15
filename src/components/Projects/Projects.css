@@ -39,10 +39,12 @@
   display: flex;
   gap: 1rem;
   margin-top: 2rem;
+  font-weight: bold;
 }
 
 .project-links a {
   text-decoration: none;
+  color: rgb(162, 92, 162);
 }
 
 @keyframes slideUp {

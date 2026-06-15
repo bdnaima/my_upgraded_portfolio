@@ -12,6 +12,7 @@ const Hero = () => {
       <img src={flower} alt="" className="flower" />
       <h1>Hi! I'm Naima!</h1>
       <p>I'm a frontend developer with UX/UI design experience.</p>
+      <p>Currently studying Fullstack .NET @ Lexicon</p>
       <button onClick={() => navigateToAbout()}>LEARN MORE</button>
     </section>
   );

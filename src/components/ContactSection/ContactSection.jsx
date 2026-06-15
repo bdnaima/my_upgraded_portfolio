@@ -24,9 +24,15 @@ const ContactSection = () => {
         </div>
 
         <form className="contact-form">
+          <label>Name:</label>
           <input type="text" placeholder="Your name" />
+
+          <label>Email:</label>
           <input type="email" placeholder="Your email" />
+
+          <label>Message:</label>
           <textarea rows="5" placeholder="Your message"></textarea>
+
           <button type="submit">Send Message</button>
         </form>
       </div>

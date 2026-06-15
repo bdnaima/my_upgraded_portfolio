@@ -62,6 +62,9 @@
   color: white;
   cursor: pointer;
 }
+label {
+  text-align: left;
+}
 
 @keyframes slideInLeft {
   from {

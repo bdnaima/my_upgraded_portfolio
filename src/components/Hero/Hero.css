@@ -4,8 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1.5rem;
-  text-align: center;
+  gap: 1rem;
   padding: 2rem;
 }
 
@@ -18,7 +17,6 @@
 
 .hero h1 {
   font-size: 4rem;
-  margin-bottom: 1rem;
 }
 
 .hero p {
@@ -34,6 +32,7 @@
   background: #b574b3;
   color: white;
   cursor: pointer;
+  margin-top: 1.5rem;
 }
 
 @keyframes fadeUp {
