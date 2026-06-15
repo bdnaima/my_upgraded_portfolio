@@ -1,5 +1,7 @@
+import ProjectsSection from "../components/Projects/ProjectsSection";
+
 const Projects = () => {
-  return <h1>These are my projects</h1>;
+  return <ProjectsSection />;
 };
 
 export default Projects;
