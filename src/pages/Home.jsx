@@ -1,5 +1,13 @@
+import AboutSection from "../components/AboutSection/AboutSection";
+import Hero from "../components/Hero/Hero";
+
 const Home = () => {
-  return <h1>Home</h1>;
+  return (
+    <>
+      <Hero />
+      <AboutSection />
+    </>
+  );
 };
 
 export default Home;

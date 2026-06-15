@@ -1,5 +1,7 @@
+import AboutSection from "../components/AboutSection/AboutSection";
+
 const AboutMe = () => {
-  return <h1>Hello, I'm Naima!</h1>;
+  return <AboutSection />;
 };
 
 export default AboutMe;
