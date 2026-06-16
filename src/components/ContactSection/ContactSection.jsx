@@ -1,4 +1,6 @@
+import { FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom";
+
 import "./ContactSection.css";
 
 const ContactSection = () => {
@@ -19,8 +21,15 @@ const ContactSection = () => {
               naima.maria.malik@gmail.com
             </a>
           </p>
-
-          <p>My link to: LinkedIn</p>
+          <div style={{ display: "flex", gap: "0.5rem" }}>
+            <p>My link to: </p>
+            <Link
+              to="https://www.linkedin.com/in/naima-maria-malik-6471ba82/"
+              target="_blank"
+            >
+              <FaLinkedin style={{ color: "#b574b3", fontSize: "1.5rem" }} />
+            </Link>
+          </div>
         </div>
 
         <form className="contact-form">

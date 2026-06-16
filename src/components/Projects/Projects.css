@@ -5,6 +5,7 @@
 .projects h2 {
   text-align: center;
   margin-bottom: 3rem;
+  font-weight: 200;
 }
 
 .projects-grid {
@@ -30,21 +31,42 @@
   object-fit: cover;
 }
 
+.project-card h3 {
+  font-weight: 300;
+}
+
 .project-content {
   padding: 1.5rem;
   text-align: left;
+  font-weight: 200;
 }
 
 .project-links {
   display: flex;
   gap: 1rem;
   margin-top: 2rem;
-  font-weight: bold;
+  font-weight: 300;
 }
 
 .project-links a {
   text-decoration: none;
   color: rgb(162, 92, 162);
+}
+
+.project-links a:hover {
+  text-decoration: none;
+  color: rgb(42, 23, 42);
+}
+
+.show-more-btn {
+  animation-delay: 0.4s;
+  padding: 1rem;
+  border: none;
+  border-radius: 12px;
+  background: #b574b3;
+  color: white;
+  cursor: pointer;
+  margin-top: 1.5rem;
 }
 
 @keyframes slideUp {

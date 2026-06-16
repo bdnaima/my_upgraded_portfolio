@@ -22,11 +22,13 @@
 .about-card h2 {
   text-align: left;
   margin-bottom: 1rem;
+  font-weight: 200;
 }
 
 .about-card p {
   text-align: left;
   line-height: 1.8;
+  font-weight: 100;
 }
 
 .about-tags {

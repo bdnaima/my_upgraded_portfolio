@@ -28,6 +28,7 @@
   justify-content: center;
   text-align: left;
   gap: 1.5rem;
+  font-weight: 100;
 }
 
 .contact-info h2 {
