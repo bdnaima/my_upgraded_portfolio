@@ -1,16 +1,76 @@
-# React + Vite
+# Naima's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio website showcasing my frontend development and UX/UI design projects.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Responsive Design** - Works seamlessly on desktop, tablet, and mobile devices
+- **Modern UI** - Clean, minimalist design with smooth animations
+- **Project Showcase** - Display of completed projects with links to live demos and GitHub repos
+- **Contact Form** - Easy way for visitors to get in touch
+- **Social Links** - Connected social media profiles (LinkedIn, Facebook)
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend**: React, React Router
+- **Styling**: CSS, Tailwind CSS
+- **Build Tool**: Vite
+- **Icons**: React Icons
+- **Deployment**: Vercel
 
-## Expanding the ESLint configuration
+## Pages
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Home** - Hero section with introduction
+- **About** - Bio, skills, and technologies
+- **Projects** - Portfolio of completed projects
+- **Contact** - Contact form and direct email link
+
+## Projects Included
+
+- To Do List App (React, Redux, Tailwind)
+- Movie App (React, API Integration)
+- Music App (React, CSS)
+- Food Quiz (React, Redux)
+- Drinks Survey (React)
+- Weather App (Vanilla JS, CSS Animations)
+- Dance Booking App (React, Firebase)
+- Library App (Vanilla JS)
+- Coffee Shop Landing Page (HTML, CSS)
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+```bash
+git clone <repository-url>
+cd naimas_portfolio
+npm install
+```
+
+### Development
+
+```bash
+npm run dev
+```
+
+Visit `http://localhost:5173` in your browser.
+
+### Build
+
+```bash
+npm run build
+```
+
+## Contact
+
+📧 Email: naima.maria.malik@gmail.com  
+🔗 LinkedIn: [Naima Maria Malik](https://www.linkedin.com/in/naima-maria-malik-6471ba82/)
+
+---
+
+\*\*© 2026 Naima Maria
