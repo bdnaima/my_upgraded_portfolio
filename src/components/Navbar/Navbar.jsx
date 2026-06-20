@@ -19,6 +19,14 @@ const Navbar = () => {
         <Link className="nav-link" to="/projects">
           Projects
         </Link>
+        <Link
+          className="nav-link"
+          to="https://past-prototyper-457365.framer.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          UX/UI
+        </Link>
         <Link className="nav-link" to="/contact">
           Contact
         </Link>
