@@ -10,21 +10,30 @@ const AboutSection = () => {
           I am a former translator and teacher who transitioned into frontend
           development. I enjoy creating modern, accessible, and user-friendly
           web experiences while combining technical development with UX/UI
-          design principles. Currently, I am continuing my journey as a
-          full-stack developer, studying C# and .NET at Lexicon to strengthen my
-          backend development skills.
+          design principles. Currently, I am studying Full-Stack .NET
+          Development at Lexicon, where I'm building backend applications with
+          C#, ASP.NET Core, Entity Framework Core, and MySQL while expanding my
+          experience across the full stack.
         </p>
 
         <div className="about-tags">
-          <span>HTML & CSS</span>
-          <span>React</span>
+          <span>HTML</span>
+          <span>CSS</span>
           <span>JavaScript</span>
+          <span>React</span>
           <span>Bootstrap</span>
-          <span>Tailwind</span>
-          <span>Node</span>
+          <span>Tailwind CSS</span>
+
           <span>C#</span>
           <span>.NET</span>
+          <span>ASP.NET Core</span>
+          <span>Entity Framework Core</span>
+
+          <span>SQL</span>
+          <span>MySQL</span>
+
           <span>Firebase</span>
+
           <span>UX/UI</span>
           <span>Figma</span>
         </div>

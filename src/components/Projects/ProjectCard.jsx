@@ -18,8 +18,12 @@ const ProjectCard = ({ project }) => {
         </div> */}
 
         <div className="project-links">
-          <Link to={project.github}>GitHub</Link>
-          <Link to={project.url}>Live Demo</Link>
+          <Link to={project.github} target="blank">
+            GitHub
+          </Link>
+          <Link to={project.url} target="blank">
+            Live Demo
+          </Link>
         </div>
       </div>
     </article>
