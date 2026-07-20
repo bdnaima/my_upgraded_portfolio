@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import "./Projects.css";
 
 const ProjectCard = ({ project }) => {
@@ -18,12 +17,13 @@ const ProjectCard = ({ project }) => {
         </div> */}
 
         <div className="project-links">
-          <Link to={project.github} target="blank">
+          <a href={project.github} target="_blank" rel="noopener noreferrer">
             GitHub
-          </Link>
-          <Link to={project.url} target="blank">
+          </a>
+
+          <a href={project.url} target="_blank" rel="noopener noreferrer">
             Live Demo
-          </Link>
+          </a>
         </div>
       </div>
     </article>
