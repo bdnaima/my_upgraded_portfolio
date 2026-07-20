@@ -18,7 +18,7 @@ export const projects = [
         image: studyPlannerImage,
         description: "A team project created for the JavaScript & React course at Technigo. We created this app using React, React Router, Redux Toolkit and Styled components.",
         technologies: ["React", "Tailwind", "localStorage"],
-        url: "https://study-planner-web-application-v2-f1.vercel.app/login",
+        url: "https://study-planner-web-application-v2.vercel.app/login",
         github: "https://github.com/bdnaima/Study-planner-web-application-v2"
     },
     {
