@@ -12,7 +12,15 @@ import coffeeImage from '../assets/images/coffee.jpg';
 
 
 export const projects = [
-
+    {
+        id: 1,
+        title: "Study Planner",
+        image: studyPlannerImage,
+        description: "A team project created for the JavaScript & React course at Technigo. We created this app using React, React Router, Redux Toolkit and Styled components.",
+        technologies: ["React", "Tailwind", "localStorage"],
+        url: "https://study-planner-web-application-v2-f1.vercel.app/login",
+        github: "https://github.com/bdnaima/Study-planner-web-application-v2"
+    },
     {
         id: 2,
         title: "Book Tracker",
