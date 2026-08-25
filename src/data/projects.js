@@ -25,8 +25,8 @@ export const projects = [
         id: 2,
         title: "Book Tracker",
         image: bookImage,
-        description: "This project was created for the JavaScript & React course at Technigo. I created this app from scratch using HTML, CSS and vanilla JavaScript.",
-        technologies: ["React", "CSS", "LocalStorage"],
+        description: "A book tracking application developed as part of my Fullstack .NET studies at Lexicon. The application was built with React and uses Supabase for data storage, allowing users to manage and keep track of their reading list.",
+        technologies: ["React", "CSS", "Supabase"],
         url: "https://book-tracker-amber-one.vercel.app/",
         github: "https://github.com/bdnaima/book_tracker"
     },
