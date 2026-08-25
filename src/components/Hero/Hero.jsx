@@ -1,19 +1,34 @@
 import { useNavigate } from "react-router-dom";
 import "./Hero.css";
-import flower from "../../assets/images/flower.webp";
 
 const Hero = () => {
   const navigate = useNavigate();
+
   const navigateToAbout = () => {
     navigate("/about");
   };
+
   return (
     <section className="hero">
-      <img src={flower} alt="" className="flower" />
+      <div className="hero-visual" aria-hidden="true">
+        <div className="orbit orbit-one"></div>
+        <div className="orbit orbit-two"></div>
+
+        <div className="hero-shape">
+          <span className="code-symbol">&lt;/&gt;</span>
+        </div>
+
+        <div className="floating-dot dot-one"></div>
+        <div className="floating-dot dot-two"></div>
+      </div>
+
       <h1>Hi! I'm Naima!</h1>
-      <p>I'm a frontend developer with UX/UI design experience.</p>
+
+      <p>Frontend Developer &amp; UX/UI Designer</p>
+
       <p>Currently studying Fullstack .NET @ Lexicon</p>
-      <button onClick={() => navigateToAbout()}>LEARN MORE</button>
+
+      <button onClick={navigateToAbout}>LEARN MORE</button>
     </section>
   );
 };
