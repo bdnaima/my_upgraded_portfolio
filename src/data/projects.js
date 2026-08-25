@@ -16,9 +16,9 @@ export const projects = [
         id: 1,
         title: "Study Planner",
         image: studyPlannerImage,
-        description: "A team project created for the JavaScript & React course at Technigo. We created this app using React, React Router, Redux Toolkit and Styled components.",
-        technologies: ["React", "Tailwind", "localStorage"],
+        description: "A study planning application developed as part of my Fullstack .NET studies at Lexicon. I built the application with React and created functionality for organizing and managing study tasks. The project uses localStorage to persist user data.",
         url: "https://study-planner-web-application-v2.vercel.app/login",
+        technologies: ["React", "Tailwind", "localStorage"],
         github: "https://github.com/bdnaima/Study-planner-web-application-v2"
     },
     {
@@ -34,7 +34,7 @@ export const projects = [
         id: 3,
         title: "Cakery Website",
         image: bakeryImage,
-        description: "This was a group project that we created together for the JavaScript & React course at Technigo. We built this application with React and CSS.",
+        description: "A responsive bakery website developed as part of my Fullstack .NET studies at Lexicon. I built the website using HTML, CSS and JavaScript, focusing on responsive design, layout and interactive elements.",
         technologies: ["HTML", "CSS", "JavaScript"],
         url: "https://noma.neocities.org/",
         github: "https://github.com/bdnaima/bakery_website"
@@ -44,7 +44,7 @@ export const projects = [
         title: "Movie App",
         image: movieImage,
         description: "This was a project completed at Technigo where I created a movies site, using themoviedb.org API. Here I used React, React Router and CSS.",
-        technologies: ["React", "CSS"],
+        technologies: ["React", "React Router", "CSS", "API"],
         url: "https://movie-app-by-priya-naima-sarah.netlify.app/",
         github: "https://github.com/bdnaima/project-movies-vite"
     },
@@ -62,7 +62,7 @@ export const projects = [
         title: "To Do List",
         image: todoImage,
         description: "A team project created for the JavaScript & React course at Technigo. We created this app using React, React Router, Redux Toolkit and Styled components.",
-        technologies: ["React", "Tailwind", "localStorage"],
+        technologies: ["React", "React Router", "Redux Toolkit", "Styled Components"],
         url: "https://todo-app-by-naima-sarah-priya.netlify.app/",
         github: "https://github.com/bdnaima/project-todos-redux"
     },
@@ -74,7 +74,7 @@ export const projects = [
         description: "This was a project completed in a team where we created a food quiz that includes a timer and the score. Here we used React, React Router, Redux and CSS.",
         technologies: ["React", "CSS"],
         url: "https://quiz-app-by-naima-sarah-priya.netlify.app/",
-        github: "https://github.com/bdnaima/project-movies-vite"
+        github: "https://github.com/bdnaima/project-redux-quiz"
     }, {
         id: 8,
         title: "Drinks survey",
@@ -88,7 +88,7 @@ export const projects = [
         title: "Weather App",
         image: weatherImage,
         description: "Another group project created for the JavaScript & React course at Technigo. It was built with HTML, CSS, CSS animations and vanilla JavaScript.",
-        technologies: ["React", "CSS"],
+        technologies: ["HTML", "CSS", "JavaScript", "API"],
         url: "https://weather-app-by-priya-and-naima.netlify.app/",
         github: "https://github.com/bdnaima/project-weather-app"
     },
@@ -97,7 +97,7 @@ export const projects = [
         title: "Coffee shop landingpage",
         image: coffeeImage,
         description: "This was a small project where I created a landing page for a coffee shop. I created the page using only HTML, CSS and CSS Animations.",
-        technologies: ["React", "CSS"],
+        technologies: ["HTML", "CSS", "CSS Animations"],
         url: "https://bdnaima.github.io/CoffeeShop/",
         github: "https://github.com/bdnaima/CoffeeShop"
     },
