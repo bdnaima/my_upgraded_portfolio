@@ -53,7 +53,7 @@ export const projects = [
         description:
             "A responsive dance academy website built with React and TypeScript, featuring dance classes, events, class details and contact information. I used React Router for navigation and Tailwind CSS for styling and responsive design.",
         technologies: ["React", "TypeScript", "React Router", "Tailwind CSS"],
-        url: "https://booking-dance-clases-web-application-v2-9kchiwjv0.vercel.app",
+        url: "https://booking-dance-clases-web-applicatio.vercel.app/",
         github: "https://github.com/bdnaima/booking-dance-clases-web-application-v2",
     },
 
